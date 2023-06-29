@@ -26,10 +26,11 @@
       color: #666666;
     }
   </style>
+
 </head>
 
 <body>
-  <div class="logo" style="background-image: url(images/logo.svg);"></div>
+  <div class="logo"></div>
   <div class="container">
     <div class="header">
       <div class="title-block">
@@ -37,46 +38,67 @@
       </div>
       <div class="userpic"></div>
     </div>
-    <div class="nav">
+
+    <nav id='menu'>
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
       <ul>
-        <li><a href="#">about</a></li>
-        <li><a href="#">works</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href='http://'>Lab</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Projects</a>
+          <ul class='sub-menus'>
+            <li><a href='http://'>Belial</a></li>
+            <li><a href='http://'>Eli</a></li>
+            <li><a href='http://'>tanerlach</a></li>
+            <li><a href='http://'>Geztålt Assn</a></li>
+            <li><a href='http://'>Sleepdom</a></li>
+          </ul>
+        </li>
+        <li><a href='http://'>About</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Services</a>
+          <ul class='sub-menus'>
+            <li><a href='http://'>Romaner</a></li>
+            <li><a href='http://'>Spalah</a></li>
+            <li><a href='http://'>Marusia Izdebska</a></li>
+            <li><a href='http://'>Julia Baranyuk</a></li>
+            <li><a href='http://'>Asya Melnikowa</a></li>
+            <li><a href='http://'>Others</a></li>
+          </ul>
+        </li>
+        <li><a href='http://'>Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content-wrapper">
+    <div class="content">
+      <h3>Eli</h3>
+      <p>Ilya Minin (Eli) is a multimedia artist specializing in interactive projects and generative transformations,
+        as well as sound design and research into acoustic phenomena. His education spans several fields, including
+        art, restoration, music, and sound design, giving him a diverse range of skills and knowledge.</p>
+      <p>Ilya's portfolio showcases his extensive collection of work, which includes over 56 albums, 37 hours of
+        recordings, and various EPs, LPs, and singles. One of his earlier projects, Micen, combines artistic
+        declamation with a minimalistic electronic sound, showcasing his ability to merge different artistic styles
+        and genres.</p>
+    </div>
+    <div class="sidebar">
+      <h2>projects</h2>
+      <ul class="projects">
+        <li><a href="#" class="active">EWP Project</a></li>
+        <li><a href="#">Belial</a></li>
+        <li><a href="#">Eli</a></li>
+        <li><a href="#">tanerlach</a></li>
+        <li><a href="#">Geztålt Assn</a></li>
+        <li><a href="#">Sleepdom</a></li>
+      </ul>
+      <h2>collaborations</h2>
+      <ul class="collaborations">
+        <li><a href="#">Romaner</a></li>
+        <li><a href="#">Spalah</a></li>
+        <li><a href="#">Marusia Izdebska</a></li>
+        <li><a href="#">Julia Baranyuk</a></li>
+        <li><a href="#">Asya Melnikowa</a></li>
+        <li><a href="#">Others</a></li>
       </ul>
     </div>
-    <div class="content-wrapper">
-      <div class="content">
-        <h3>Eli</h3>
-        <p>Ilya Minin (Eli) is a multimedia artist specializing in interactive projects and generative transformations,
-          as well as sound design and research into acoustic phenomena. His education spans several fields, including
-          art, restoration, music, and sound design, giving him a diverse range of skills and knowledge.</p>
-        <p>Ilya's portfolio showcases his extensive collection of work, which includes over 56 albums, 37 hours of
-          recordings, and various EPs, LPs, and singles. One of his earlier projects, Micen, combines artistic
-          declamation with a minimalistic electronic sound, showcasing his ability to merge different artistic styles
-          and genres.</p>
-      </div>
-      <div class="sidebar">
-        <h2>projects</h2>
-        <ul class="projects">
-          <li><a href="#" class="active">EWP Project</a></li>
-          <li><a href="#">Belial</a></li>
-          <li><a href="#">Eli</a></li>
-          <li><a href="#">tanerlach</a></li>
-          <li><a href="#">Geztålt Assn</a></li>
-          <li><a href="#">Sleepdom</a></li>
-        </ul>
-        <h2>collaborations</h2>
-        <ul class="collaborations">
-          <li><a href="#">Romaner</a></li>
-          <li><a href="#">Spalah</a></li>
-          <li><a href="#">Marusia Izdebska</a></li>
-          <li><a href="#">Julia Baranyuk</a></li>
-          <li><a href="#">Asya Melnikowa</a></li>
-          <li><a href="#">Others</a></li>
-
-        </ul>
-      </div>
-    </div>
+  </div>
   </div>
 </body>
 
