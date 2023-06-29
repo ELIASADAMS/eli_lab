@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Oswald', sans-serif;
-  background: linear-gradient(#0E4040, #378C6D);
+  background: #0E4040;
   padding: 50px 0;
   border-radius: 50%;
 }
@@ -25,7 +25,6 @@ h2 {
   min-height: 800px;
   margin: 0 auto;
   background: linear-gradient(#F2DBCE, #A68A80);
-  border-radius: 50%;
 }
 
 .header {
@@ -84,30 +83,86 @@ h2 {
   transition: background .3s ease;
 }
 
+.nav li a {
+  transition: background-color 0.3s;
+}
+
 .nav li a:hover {
-  background: color(#295D6B);
+  background-color: #295D6B;
+}
+
+.nav li a.active {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .content-wrapper {
   display: flex;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .content {
   width: 70%;
   padding: 20px;
+  transition: color 0.3s;
+}
+
+.content h3 {
+  color: #000000;
+}
+
+.content p {
+  color: #666666;
 }
 
 .sidebar {
   width: 30%;
-  padding: 20px;
+  background: #ffffff;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+  background-color: #f2f2f2;
 }
 
 .projects li {
   padding: 5px 0;
-  transition: transform .3s ease;
+  transition: color 0.3s;
 }
 
-.projects li:hover {
+.projects li a {
+  color: #000000;
+}
+
+.projects li a:hover {
+  color: #ff6a00;
+}
+
+.collaborations ul {
+  margin-top: 20px;
+}
+
+.collaborations li {
   padding: 5px 0;
-  transform: translateX(10px);
+  transition: color 0.3s;
+}
+
+.collaborations li a {
+  color: #000000;
+}
+
+.collaborations li a:hover {
+  color: #ff6a00;
 }
