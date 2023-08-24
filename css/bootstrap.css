@@ -43,7 +43,7 @@ template {
 }
 
 a {
-  background-color: black;
+  background-color: transparent;
 }
 
 a:active,
