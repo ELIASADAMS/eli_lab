@@ -17,34 +17,6 @@ body {
 }
 
 
-.products .caption {
-    height: 130px;
-    overflow: hidden;
-}
-
-.products .caption h4 {
-    white-space: nowrap;
-}
-
-.products .thumbnail img {
-    width: 100%;
-}
-
-.products .ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
-}
-
-.products .thumbnail {
-    padding: 0;
-}
-
-.products .thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
-}
-
 
 /* Home Page Carousel */
 
