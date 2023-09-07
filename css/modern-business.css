@@ -38,19 +38,6 @@ body {
 
 .img-hover:hover {
 	opacity: 0.8;
-	animation: txtside10 1s linear 0s normal both;
-}
-
-@keyframes txtside10 {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
 }
 
 /* Home Page Carousel */
@@ -84,54 +71,44 @@ header.carousel .fill {
 	background-position: center;
 	background-size: cover;
 	animation: txtside10 1s linear 0s normal both;
-	}
-	
-	@keyframes txtside10 {
-		0% {
-			opacity: 0;
-			transform: translateX(-250px);
-		}
-	
-		100% {
-			opacity: 1;
-			transform: translateX(0);
-		}
-	
-		/* Footer Styles */
-	
-		footer {
-			margin: 50px 0;
-			animation: txtside10 1s linear 0s normal both;
-		}
-	
-		@keyframes txtside10 {
-			0% {
-				opacity: 0;
-				transform: translateX(-250px);
-			}
-	
-			100% {
-				opacity: 1;
-				transform: translateX(0);
-			}
-		}
-	}
-	
-	/* Responsive Styles */
-	
-	@media (max-width: 991px) {
-	
-		.customer-img,
-		.img-related {
-			margin-bottom: 30px;
-		}
-	}
-		@media (max-width: 767px) {
-			.img-portfolio {
-				margin-bottom: 15px;
-			}
+}
 
-			header.carousel .carousel {
-				height: 70%;
-			}
-		}
+@keyframes txtside10 {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	/* Footer Styles */
+
+	footer {
+		margin: 50px 0;
+		animation: txtside10 1s linear 0s normal both;
+	}
+
+}
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+
+	.customer-img,
+	.img-related {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.img-portfolio {
+		margin-bottom: 15px;
+	}
+
+	header.carousel .carousel {
+		height: 70%;
+	}
+}
