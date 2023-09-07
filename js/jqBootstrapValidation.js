@@ -345,10 +345,10 @@
             message = message
               ? message
               : "'" +
-              el +
-              "' validation failed <!-- Add attribute 'data-validation-" +
-              el.toLowerCase() +
-              "-message' to input to change this message -->";
+                el +
+                "' validation failed <!-- Add attribute 'data-validation-" +
+                el.toLowerCase() +
+                "-message' to input to change this message -->";
 
             $.each(
               settings.validatorTypes,
@@ -360,8 +360,8 @@
                   !foundValidator &&
                   $this.data(
                     "validation" +
-                    el +
-                    formatValidatorName(validatorTemplate.name)
+                      el +
+                      formatValidatorName(validatorTemplate.name)
                   ) !== undefined
                 ) {
                   validators[validatorType].push(
@@ -408,8 +408,8 @@
                     ) {
                       $this.data(
                         "validation" +
-                        el +
-                        formatValidatorName(validatorTemplate.name),
+                          el +
+                          formatValidatorName(validatorTemplate.name),
                         validator[validatorTemplate.name.toLowerCase()]
                       );
                       validators[validatorType].push(
@@ -566,19 +566,19 @@
                   // Only one? Being strict? Just output it.
                   $helpBlock.html(
                     errorsFound[0] +
-                    (settings.options.prependExistingHelpBlock
-                      ? $helpBlock.data("original-contents")
-                      : "")
+                      (settings.options.prependExistingHelpBlock
+                        ? $helpBlock.data("original-contents")
+                        : "")
                   );
                 } else {
                   // Multiple? Being sloppy? Glue them together into an UL.
                   $helpBlock.html(
                     '<ul role="alert"><li>' +
-                    errorsFound.join("</li><li>") +
-                    "</li></ul>" +
-                    (settings.options.prependExistingHelpBlock
-                      ? $helpBlock.data("original-contents")
-                      : "")
+                      errorsFound.join("</li><li>") +
+                      "</li></ul>" +
+                      (settings.options.prependExistingHelpBlock
+                        ? $helpBlock.data("original-contents")
+                        : "")
                   );
                 }
               } else {
@@ -647,8 +647,8 @@
           errorMessages = errorMessages.concat(
             $(el).triggerHandler("getValidators.validation")
               ? $(el).triggerHandler("validation.validation", {
-                submitting: true,
-              })
+                  submitting: true,
+                })
               : []
           );
         });
@@ -810,9 +810,13 @@
             .find('[name="' + $this.data("validation" + name + "Match") + '"]')
             .first();
           element.bind("validation.validation", function () {
-            $this.trigger("change.validation", { submitting: true });
+            $this.trigger("change.validation", {
+              submitting: true,
+            });
           });
-          return { element: element };
+          return {
+            element: element,
+          };
         },
         validate: function ($this, value, validator) {
           return (
@@ -825,7 +829,9 @@
       max: {
         name: "max",
         init: function ($this, name) {
-          return { max: $this.data("validation" + name + "Max") };
+          return {
+            max: $this.data("validation" + name + "Max"),
+          };
         },
         validate: function ($this, value, validator) {
           return (
@@ -839,7 +845,9 @@
       min: {
         name: "min",
         init: function ($this, name) {
-          return { min: $this.data("validation" + name + "Min") };
+          return {
+            min: $this.data("validation" + name + "Min"),
+          };
         },
         validate: function ($this, value, validator) {
           return (
@@ -853,7 +861,9 @@
       maxlength: {
         name: "maxlength",
         init: function ($this, name) {
-          return { maxlength: $this.data("validation" + name + "Maxlength") };
+          return {
+            maxlength: $this.data("validation" + name + "Maxlength"),
+          };
         },
         validate: function ($this, value, validator) {
           return (
@@ -865,7 +875,9 @@
       minlength: {
         name: "minlength",
         init: function ($this, name) {
-          return { minlength: $this.data("validation" + name + "Minlength") };
+          return {
+            minlength: $this.data("validation" + name + "Minlength"),
+          };
         },
         validate: function ($this, value, validator) {
           return (
@@ -882,7 +894,9 @@
             .first()
             .find('[name="' + $this.attr("name") + '"]');
           elements.bind("click.validation", function () {
-            $this.trigger("change.validation", { includeEmpty: true });
+            $this.trigger("change.validation", {
+              includeEmpty: true,
+            });
           });
           return {
             maxchecked: $this.data("validation" + name + "Maxchecked"),
@@ -909,7 +923,9 @@
             .first()
             .find('[name="' + $this.attr("name") + '"]');
           elements.bind("click.validation", function () {
-            $this.trigger("change.validation", { includeEmpty: true });
+            $this.trigger("change.validation", {
+              includeEmpty: true,
+            });
           });
           return {
             minchecked: $this.data("validation" + name + "Minchecked"),
