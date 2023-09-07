@@ -1449,30 +1449,8 @@ img {
   height: auto;
   border-radius: 6px;
   box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.17);
-  animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
-@keyframes myAnim {
-  0% {
-    transform: scale(0.5);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-}
-
-100% {
-  opacity: 1;
-  transform: scale(1);
-}
-}
-}
-
-.img-rounded {
-  border-radius: 6px;
-}
 
 .img-thumbnail {
   display: inline-block;
@@ -1543,16 +1521,17 @@ h6 {
   color: inherit;
   animation: txtside1 1s ease 0s 1 normal both;
 }
-@keyframes txtside1 {
-	0% {
-		opacity: 0;
-		transform: scale(1.4);
-	}
 
-	100% {
-		opacity: 1;
-		transform: scale(1);
-	}
+@keyframes txtside1 {
+  0% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .h1 .small,
@@ -1584,14 +1563,15 @@ h6 small {
   color: #777;
   animation: txtside2 1s ease 0s 1 normal both;
 }
-@keyframes txtside2 {
-	0% {
-		opacity: 0;
-	}
 
-	100% {
-		opacity: 1;
-	}
+@keyframes txtside2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .h1,
@@ -1604,16 +1584,17 @@ h3 {
   margin-bottom: 10px;
   animation: txtside3 1s ease 0s 1 normal both;
 }
-@keyframes txtside3 {
-	0% {
-		opacity: 0;
-		transform: translateY(250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+@keyframes txtside3 {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .h1 .small,
@@ -1631,16 +1612,17 @@ h3 small {
   font-size: 65%;
   animation: txtside4 1s ease 0s 1 normal both;
 }
-@keyframes txtside4 {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+@keyframes txtside4 {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .h4,
@@ -1653,16 +1635,17 @@ h6 {
   margin-bottom: 10px;
   animation: txtside4 1s ease 0s 1 normal both;
 }
-@keyframes txtside4 {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+@keyframes txtside4 {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .h4 .small,
@@ -1686,18 +1669,19 @@ h1 {
   font-size: 36px;
   animation: txtside5 1s ease 0s normal both;
 }
-@keyframes txtside5 {
-	0% {
-		opacity: 0;
-		transform: rotateX(-100deg);
-		transform-origin: top;
-	}
 
-	100% {
-		opacity: 1;
-		transform: rotateX(0deg);
-		transform-origin: top;
-	}
+@keyframes txtside5 {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
 }
 
 .h2,
@@ -2178,16 +2162,17 @@ pre code {
   padding-left: 15px;
   animation: txtside6 1s ease 0s 1 normal both;
 }
-@keyframes txtside6 {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+@keyframes txtside6 {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .col-xs-1,
@@ -2205,18 +2190,19 @@ pre code {
   float: left;
   animation: txtside7 1s ease 0s 1 normal both;
 }
-@keyframes txtside7 {
-	0% {
-		opacity: 0;
-		transform: rotateX(-100deg);
-		transform-origin: top;
-	}
 
-	100% {
-		opacity: 1;
-		transform: rotateX(0deg);
-		transform-origin: top;
-	}
+@keyframes txtside7 {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
 }
 
 .col-xs-12 {
@@ -5847,19 +5833,20 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-  background: transparent box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.17);
+  background: transparent box-shadow 0px 0px 29px 3px rgba(0, 0, 0, 0.17);
   animation: txtside8 1s ease 0s 1 normal both;
 }
-@keyframes txtside8 {
-	0% {
-		transform: scaleY(0);
-		transform-origin: 100% 0%;
-	}
 
-	100% {
-		transform: scaleY(1);
-		transform-origin: 100% 0%;
-	}
+@keyframes txtside8 {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0%;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+  }
 }
 
 .navbar-inverse .navbar-brand {
