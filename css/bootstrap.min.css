@@ -43,7 +43,7 @@ template {
 }
 
 a {
-  background-color: transparent;
+  background-color: fff;
 }
 
 a:active,
@@ -4615,7 +4615,7 @@ tbody.collapse.in {
 .dropdown-menu>.disabled>a:hover {
   text-decoration: none;
   cursor: not-allowed;
-  background-color: transparent;
+  background-color: #fff;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
@@ -5113,7 +5113,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   color: #777;
   text-decoration: none;
   cursor: not-allowed;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .nav .open>a,
@@ -5479,7 +5479,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
+  background-color: #fff;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -5522,7 +5522,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: #fff;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -5833,7 +5833,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-  background: transparent box-shadow 0px 0px 29px 3px rgba(0, 0, 0, 0.17);
+  background: white box-shadow 0px 0px 29px 3px rgba(0, 0, 0, 0.17);
   animation: txtside8 1s ease 0s 1 normal both;
 }
 
@@ -5885,7 +5885,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.disabled>a:focus,
 .navbar-inverse .navbar-nav>.disabled>a:hover {
   color: #444;
-  background-color: transparent;
+  background-color: white;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -8021,42 +8021,12 @@ button.close {
 }
 
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left,
-      rgba(0, 0, 0, 0.5) 0,
-      rgba(0, 0, 0, 0.0001) 100%);
-  background-image: -o-linear-gradient(left,
-      rgba(0, 0, 0, 0.5) 0,
-      rgba(0, 0, 0, 0.0001) 100%);
-  background-image: gradient(linear,
-      left top,
-      right top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.0001)));
-  background-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0.5) 0,
-      rgba(0, 0, 0, 0.0001) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x;
 }
 
 .carousel-control.right {
   right: 0;
   left: auto;
-  background-image: -webkit-linear-gradient(left,
-      rgba(0, 0, 0, 0.0001) 0,
-      rgba(0, 0, 0, 0.5) 100%);
-  background-image: -o-linear-gradient(left,
-      rgba(0, 0, 0, 0.0001) 0,
-      rgba(0, 0, 0, 0.5) 100%);
-  background-image: gradient(linear,
-      left top,
-      right top,
-      from(rgba(0, 0, 0, 0.0001)),
-      to(rgba(0, 0, 0, 0.5)));
-  background-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0.0001) 0,
-      rgba(0, 0, 0, 0.5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
 }
 
@@ -8108,38 +8078,6 @@ button.close {
   content: "\203a";
 }
 
-.carousel-indicators {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  z-index: 15;
-  width: 60%;
-  padding-left: 0;
-  margin-left: -30%;
-  text-align: center;
-  list-style: none;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
-  border-radius: 10px;
-}
-
-.carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: #fff;
-}
-
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -8183,10 +8121,6 @@ button.close {
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
-  }
-
-  .carousel-indicators {
-    bottom: 20px;
   }
 }
 
