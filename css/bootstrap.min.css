@@ -43,7 +43,7 @@ template {
 }
 
 a {
-  background-color: fff
+  background-color: #fff
 }
 
 a:active,
@@ -4483,7 +4483,7 @@ tbody.collapse.in {
 .dropdown-menu-right,
 .dropdown-menu.pull-right {
   right: 0;
-  left: auto
+  left: auto;
   background-color: #fff;
 }
 
@@ -7659,7 +7659,7 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   background-color: transparent;
-  opacity: .5
+  opacity: 0
 }
 
 .carousel-control.left,
@@ -7677,7 +7677,7 @@ button.close {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: .9
+  opacity: 0
 }
 
 .carousel-control .glyphicon-chevron-left,
