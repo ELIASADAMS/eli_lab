@@ -70,7 +70,7 @@ h1 {
 }
 
 mark {
-  color: #000;
+  color: #1a121b;
   background: #ff0
 }
 
@@ -255,7 +255,7 @@ th {
   *,
   :after,
   :before {
-    color: #000 !important;
+    color: #1a121b !important;
     text-shadow: none !important;
     background: 0 0 !important;
     -webkit-box-shadow: none !important;
@@ -318,11 +318,11 @@ th {
 
   .btn>.caret,
   .dropup>.btn>.caret {
-    border-top-color: #000 !important
+    border-top-color: #1a121b !important
   }
 
   .label {
-    border: 1px solid #000
+    border: 1px solid #1a121b
   }
 
   .table {
@@ -336,7 +336,7 @@ th {
 
   .table-bordered td,
   .table-bordered th {
-    border: 1px solid #ddd !important
+    border: 1px solid #98999a !important
   }
 }
 
@@ -1434,7 +1434,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #23527c;
+  color: #5040a9;
   text-decoration: underline
 }
 
@@ -1477,12 +1477,12 @@ img {
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fbfffd;
-  border: 1px solid #ddd;
+  border: 1px solid #98999a;
   border-radius: 8px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  box-shadow: 5px 5px 10px 1px #000 inset
+  box-shadow: 5px 5px 10px 1px #1a121b inset
 }
 
 .img-circle {
@@ -1493,7 +1493,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee
+  border-top: 1px solid #fbfffd
 }
 
 .sr-only {
@@ -1807,7 +1807,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee
+  border-bottom: 1px solid #fbfffd
 }
 
 dl,
@@ -1888,7 +1888,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eee
+  border-left: 5px solid #fbfffd
 }
 
 blockquote ol:last-child,
@@ -1917,7 +1917,7 @@ blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   text-align: right;
-  border-right: 5px solid #eee;
+  border-right: 5px solid #fbfffd;
   border-left: 0
 }
 
@@ -1992,7 +1992,7 @@ pre {
   word-wrap: break-word;
   background: #fbfffd;
   border: 1px solid #ccc;
-  box-shadow: 5px 5px 10px 1px #000 inset
+  box-shadow: 5px 5px 10px 1px #1a121b inset
 }
 
 pre code {
@@ -3005,7 +3005,7 @@ caption {
 .table>thead>tr>th {
   padding: 8px;
   line-height: 1.42857143;
-  border-top: 1px solid #ddd
+  border-top: 1px solid #98999a
 }
 
 .table>tbody>tr>td,
@@ -3016,12 +3016,12 @@ caption {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd
+  border-top: 1px solid #98999a
 }
 
 .table>thead>tr>th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd
+  border-bottom: 2px solid #98999a
 }
 
 .panel>.table>tbody:first-child>tr:first-child td,
@@ -3036,7 +3036,7 @@ caption {
 }
 
 .table>tbody+tbody {
-  border-top: 2px solid #ddd
+  border-top: 2px solid #98999a
 }
 
 .table .table {
@@ -3059,7 +3059,7 @@ caption {
 .table-bordered>tfoot>tr>th,
 .table-bordered>thead>tr>td,
 .table-bordered>thead>tr>th {
-  border: 1px solid #ddd
+  border: 1px solid #98999a
 }
 
 .table-bordered>thead>tr>td,
@@ -3211,7 +3211,7 @@ table th[class*=col-] {
     margin-bottom: 15px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #ddd
+    border: 1px solid #98999a
   }
 
   .table-responsive>.table {
@@ -3366,7 +3366,7 @@ output {
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-  background-color: #eee;
+  background-color: #fbfffd;
   opacity: 1
 }
 
@@ -4253,7 +4253,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:focus,
 .btn-link:hover {
-  color: #23527c;
+  color: #5040a9;
   text-decoration: underline;
   background-color: transparent
 }
@@ -4822,7 +4822,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   line-height: 1;
   color: #555;
   text-align: center;
-  background-color: #eee;
+  background-color: #fbfffd;
   border: 1px solid #ccc;
   border-radius: 4px
 }
@@ -4924,7 +4924,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a:focus,
 .nav>li>a:hover {
   text-decoration: none;
-  background-color: #eee
+  background-color: #fbfffd
 }
 
 .nav>li.disabled>a {
@@ -4942,7 +4942,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
-  background-color: #eee;
+  background-color: #fbfffd;
   border-color: #008d47
 }
 
@@ -4958,7 +4958,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #98999a
 }
 
 .nav-tabs>li {
@@ -4974,7 +4974,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs>li>a:hover {
-  border-color: #eee #eee #ddd
+  border-color: #fbfffd #fbfffd #98999a
 }
 
 .nav-tabs>li.active>a,
@@ -4983,7 +4983,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   color: #555;
   cursor: default;
   background-color: #fbfffd;
-  border: 1px solid #ddd;
+  border: 1px solid #98999a;
   border-bottom-color: transparent
 }
 
@@ -5022,12 +5022,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs.nav-justified>.active>a,
 .nav-tabs.nav-justified>.active>a:focus,
 .nav-tabs.nav-justified>.active>a:hover {
-  border: 1px solid #ddd
+  border: 1px solid #98999a
 }
 
 @media (min-width:768px) {
   .nav-tabs.nav-justified>li>a {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #98999a;
     border-radius: 4px 4px 0 0
   }
 
@@ -5099,12 +5099,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs-justified>.active>a,
 .nav-tabs-justified>.active>a:focus,
 .nav-tabs-justified>.active>a:hover {
-  border: 1px solid #ddd
+  border: 1px solid #98999a
 }
 
 @media (min-width:768px) {
   .nav-tabs-justified>li>a {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #98999a;
     border-radius: 4px 4px 0 0
   }
 
@@ -5552,12 +5552,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #ddd
+  border-color: #98999a
 }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: #ddd
+  background-color: #98999a
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -5784,7 +5784,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   color: #008d47;
   text-decoration: none;
   background-color: #fbfffd;
-  border: 1px solid #ddd
+  border: 1px solid #98999a
 }
 
 .pagination>li:first-child>a,
@@ -5805,9 +5805,9 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination>li>span:focus,
 .pagination>li>span:hover {
   z-index: 2;
-  color: #23527c;
-  background-color: #eee;
-  border-color: #ddd
+  color: #5040a9;
+  background-color: #fbfffd;
+  border-color: #98999a
 }
 
 .pagination>.active>a,
@@ -5832,7 +5832,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   color: #5040a9;
   cursor: not-allowed;
   background-color: #fbfffd;
-  border-color: #ddd
+  border-color: #98999a
 }
 
 .pagination-lg>li>a,
@@ -5885,14 +5885,14 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fbfffd;
-  border: 1px solid #ddd;
+  border: 1px solid #98999a;
   border-radius: 15px
 }
 
 .pager li>a:focus,
 .pager li>a:hover {
   text-decoration: none;
-  background-color: #eee
+  background-color: #fbfffd
 }
 
 .pager .next>a,
@@ -6051,7 +6051,7 @@ a.label:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  background-color: #eee
+  background-color: #fbfffd
 }
 
 .jumbotron,
@@ -6113,7 +6113,7 @@ button.list-group-item-warning .list-group-item-heading {
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fbfffd;
-  border: 1px solid #ddd;
+  border: 1px solid #98999a;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
@@ -6366,7 +6366,7 @@ a.thumbnail:hover {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fbfffd;
-  border: 1px solid #ddd
+  border: 1px solid #98999a
 }
 
 .list-group-item:first-child {
@@ -6404,7 +6404,7 @@ button.list-group-item {
 .list-group-item.disabled:hover {
   color: #5040a9;
   cursor: not-allowed;
-  background-color: #eee
+  background-color: #fbfffd
 }
 
 .list-group-item.disabled .list-group-item-heading,
@@ -6611,7 +6611,7 @@ button.list-group-item-danger.active:hover {
 .panel-footer {
   padding: 10px 15px;
   background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #98999a;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px
 }
@@ -6737,7 +6737,7 @@ button.list-group-item-danger.active:hover {
 .panel>.panel-body+.table-responsive,
 .panel>.table+.panel-body,
 .panel>.table-responsive+.panel-body {
-  border-top: 1px solid #ddd
+  border-top: 1px solid #98999a
 }
 
 .panel>.table-bordered,
@@ -6824,22 +6824,22 @@ button.list-group-item-danger.active:hover {
 }
 
 .panel-group .panel-footer+.panel-collapse .panel-body {
-  border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #98999a
 }
 
 .panel-default,
 .well blockquote {
-  border-color: #ddd
+  border-color: #98999a
 }
 
 .panel-default>.panel-heading {
   color: #5040a9;
   background-color: #f5f5f5;
-  border-color: #ddd
+  border-color: #98999a
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top-color: #ddd
+  border-top-color: #98999a
 }
 
 .panel-default>.panel-heading .badge {
@@ -6849,7 +6849,7 @@ button.list-group-item-danger.active:hover {
 }
 
 .panel-default>.panel-footer+.panel-collapse>.panel-body {
-  border-bottom-color: #ddd
+  border-bottom-color: #98999a
 }
 
 .panel-primary {
@@ -7027,7 +7027,7 @@ button.list-group-item-danger.active:hover {
   font-size: 21px;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #1a121b;
   text-shadow: 0 1px 0#fbfffd;
   filter: alpha(opacity=20);
   opacity: .2
@@ -7035,7 +7035,7 @@ button.list-group-item-danger.active:hover {
 
 .close:focus,
 .close:hover {
-  color: #000;
+  color: #1a121b;
   text-decoration: none;
   cursor: pointer;
   filter: alpha(opacity=50);
@@ -7114,7 +7114,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000
+  background-color: #1a121b
 }
 
 .modal-backdrop.fade {
@@ -7249,7 +7249,7 @@ button.close {
   padding: 3px 8px;
   color: #fbfffd;
   text-align: center;
-  background-color: #000;
+  background-color: #1a121b;
   border-radius: 4px
 }
 
@@ -7266,7 +7266,7 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000
+  border-top-color: #1a121b
 }
 
 .tooltip.top-left .tooltip-arrow,
@@ -7274,7 +7274,7 @@ button.close {
   bottom: 0;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000
+  border-top-color: #1a121b
 }
 
 .tooltip.top-left .tooltip-arrow {
@@ -7290,7 +7290,7 @@ button.close {
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #000
+  border-right-color: #1a121b
 }
 
 .tooltip.left .tooltip-arrow {
@@ -7298,7 +7298,7 @@ button.close {
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #000
+  border-left-color: #1a121b
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -7306,7 +7306,7 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000
+  border-bottom-color: #1a121b
 }
 
 .tooltip.bottom-left .tooltip-arrow {
@@ -7314,7 +7314,7 @@ button.close {
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000
+  border-bottom-color: #1a121b
 }
 
 .tooltip.bottom-right .tooltip-arrow {
@@ -7322,7 +7322,7 @@ button.close {
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000
+  border-bottom-color: #1a121b
 }
 
 .popover {
@@ -7584,7 +7584,7 @@ button.close {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5)0, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, .5)0, rgba(0, 0, 0, .0001) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#1a121b00000', GradientType=1);
   background-repeat: repeat-x
 }
 
@@ -7595,7 +7595,7 @@ button.close {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001)0, rgba(0, 0, 0, .5) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, .0001)0, rgba(0, 0, 0, .5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a121b00000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x
 }
 
@@ -7666,7 +7666,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
+  background-color: #1a121b \9;
   background-color: transparent;
   border: 1px solid #fbfffd;
   border-radius: 10px
