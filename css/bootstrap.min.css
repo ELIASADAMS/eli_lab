@@ -1576,7 +1576,7 @@ img {
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
 }
 
 .img-circle {
@@ -1880,7 +1880,7 @@ a.bg-primary:hover {
 .bg-success {
   background-color: #dff0d8;
   box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
 }
 
 a.bg-success:focus,
@@ -2078,7 +2078,7 @@ kbd {
   background-color: #5040a9;
   border-radius: 8px;
   box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
 }
 
 kbd kbd {
@@ -2692,7 +2692,6 @@ pre code {
 
   .col-md-4 {
     width: 33.33333333%
-    
   }
 
   .col-md-3 {
@@ -3428,7 +3427,7 @@ output {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-  -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
   -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
@@ -5000,8 +4999,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none
-  
-  
 }
 
 .nav>li,
@@ -8084,5 +8081,31 @@ button.close {
 
   .hidden-print {
     display: none !important
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 22px;
+  border-radius: 20px;
+  color: #514b82;
+  border: 2px solid;
+  position: relative;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  margin: 2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: l6 2s infinite;
+}
+
+@keyframes l6 {
+  100% {
+    inset: 0
   }
 }
