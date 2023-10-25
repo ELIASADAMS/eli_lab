@@ -37,7 +37,8 @@
     }
 }
 
-body,html {
+body,
+html {
     height: 100%
 }
 
@@ -59,7 +60,10 @@ header.carousel {
     height: 50%
 }
 
-header.carousel .carousel-inner,header.carousel .fill,header.carousel .item,header.carousel .item.active {
+header.carousel .carousel-inner,
+header.carousel .fill,
+header.carousel .item,
+header.carousel .item.active {
     height: 100%;
     animation: txtside10 1s linear 0s normal both
 }
@@ -71,7 +75,9 @@ header.carousel .fill {
 }
 
 @media (max-width:991px) {
-    .customer-img,.img-related {
+
+    .customer-img,
+    .img-related {
         margin-bottom: 30px
     }
 }
