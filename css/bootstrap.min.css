@@ -1828,7 +1828,7 @@ th {
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #286090
+  color: #DB6132
 }
 
 .text-success {
@@ -1841,12 +1841,12 @@ a.text-success:hover {
 }
 
 .text-info {
-  color: #31708f
+  color: #DB6131
 }
 
 a.text-info:focus,
 a.text-info:hover {
-  color: #245269
+  color: #DB6132
 }
 
 .text-warning {
@@ -1874,7 +1874,7 @@ a.text-danger:hover {
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: #286090
+  background-color: #DB6133
 }
 
 .bg-success {
