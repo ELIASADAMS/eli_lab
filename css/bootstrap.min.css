@@ -1559,8 +1559,16 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 .img-thumbnail {
@@ -1575,8 +1583,16 @@ img {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 .img-circle {
@@ -1879,8 +1895,16 @@ a.bg-primary:hover {
 
 .bg-success {
   background-color: #dff0d8;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 a.bg-success:focus,
@@ -2077,8 +2101,16 @@ kbd {
   color: #fbfffd;
   background-color: #111012;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 kbd kbd {
@@ -3426,11 +3458,19 @@ output {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07) 
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+  -transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
 .form-control:focus {
@@ -4478,8 +4518,16 @@ tbody.collapse.in {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 .dropdown-menu-right,
@@ -5738,7 +5786,16 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
   color: #fbfffd;
-  box-shadow: 0 0 10px 6px rgba(85, 85, 85, .08);
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07);
   background-color: #111012
 }
 
@@ -5760,7 +5817,16 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fbfffd;
-  box-shadow: 0 0 10px 6px rgba(85, 85, 85, .08) inset
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07) inset
 }
 
 .navbar-inverse .navbar-collapse,
@@ -5773,7 +5839,16 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.open>a:hover {
   color: #fbfffd;
   background-color: #111012;
-  box-shadow: 0 0 10px 6px rgba(85, 85, 85, .08)
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 @media (max-width:767px) {
@@ -5822,7 +5897,16 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .btn-link:focus,
 .navbar-inverse .btn-link:hover {
   color: #fbfffd;
-  box-shadow: 0 0 10px 6px rgba(85, 85, 85, .08)
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 .navbar-inverse .btn-link[disabled]:focus,
@@ -5838,7 +5922,16 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   list-style: none;
   background-color: #fbfffd;
   border-radius: 4px;
-  box-shadow: 0 0 10px 6px rgba(85, 85, 85, .08) inset
+  box-shadow:
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07) inset
 }
 
 .breadcrumb>li,
@@ -8108,4 +8201,79 @@ button.close {
   100% {
     inset: 0
   }
+}
+.title-nword {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-nword-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-nword-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-nword-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-nword-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+.title-nword-5 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-nword-6 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-nword-7 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-nword-8 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.ncontainer {
+  display: flexbox;
+  place-items: center;  
+  text-align: justify;
+}
+
+.ntitle {
+  font-family: "Franklin Gothic", Franklin Gothic, Bold, sans-serif;
+  font-weight: 800;
+  font-size: auto;
+  text-transform: uppercase;
 }
