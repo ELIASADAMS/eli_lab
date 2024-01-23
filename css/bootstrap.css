@@ -4388,15 +4388,15 @@ tbody.collapse.in {
   border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 4px;
   box-shadow:
-  1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
-  3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
-  6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
-  10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
-  15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
-  22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
-  33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
-  53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
-  100px 100px 93px -16px rgba(0, 0, 0, 0.07)
+    1.7px 1.7px 1.6px -16px rgba(0, 0, 0, 0.016),
+    3.9px 3.9px 3.6px -16px rgba(0, 0, 0, 0.023),
+    6.7px 6.7px 6.2px -16px rgba(0, 0, 0, 0.028),
+    10.3px 10.3px 9.5px -16px rgba(0, 0, 0, 0.033),
+    15.2px 15.2px 14.1px -16px rgba(0, 0, 0, 0.037),
+    22.3px 22.3px 20.8px -16px rgba(0, 0, 0, 0.042),
+    33.5px 33.5px 31.1px -16px rgba(0, 0, 0, 0.047),
+    53.4px 53.4px 49.6px -16px rgba(0, 0, 0, 0.054),
+    100px 100px 93px -16px rgba(0, 0, 0, 0.07)
 }
 
 .dropdown-menu-right,
@@ -8053,6 +8053,7 @@ button.close {
     display: none !important
   }
 }
+
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -8082,20 +8083,40 @@ button.close {
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+  0% {
+    color: var(--color-1)
+  }
+
+  32% {
+    color: var(--color-1)
+  }
+
+  33% {
+    color: var(--color-2)
+  }
+
+  65% {
+    color: var(--color-2)
+  }
+
+  66% {
+    color: var(--color-3)
+  }
+
+  99% {
+    color: var(--color-3)
+  }
+
+  100% {
+    color: var(--color-1)
+  }
 }
 
 /* Here are just some visual styles. 🖌 */
 
 .container {
   display: grid;
-  place-items: center;  
+  place-items: center;
   text-align: center;
   height: 100vh
 }
