@@ -61,11 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (li) {
         li.classList.add("active");
       }
-      // Optional: uncomment if you wish to activate dropdown parent as well
-      /*
-      const dropdownLi = li.closest("ul.dropdown-menu")?.closest("li.dropdown");
-      if (dropdownLi) dropdownLi.classList.add("active");
-      */
     }
   });
 });

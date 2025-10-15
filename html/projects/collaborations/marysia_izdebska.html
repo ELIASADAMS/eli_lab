@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eli_lab</title>
+    <meta name="description" content="eli_lab">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../css/modern-business.css" rel="stylesheet" />
+    <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"></h1>
+                <ol class="breadcrumb"></ol>
+            </div>
+
+            <div id="portfolioContainer"></div>
+            <script type="module" src="../../../../js/projects_text.js"></script>
+            <script type="module">
+                import { createPortfolioText } from '../../../../js/projects_text.js';
+                document.addEventListener('DOMContentLoaded', () => {
+                    createPortfolioText([
+                        {
+                            link: '../../../../html/projects/audio/geztalt.html',
+                            imgSrc: '../../../../images/Geztalt/geztalt_scr_2.png',
+                            alt: 'Geztålt',
+                            title: 'Geztålt',
+                            description: `Gezt&aring;lt is a collaborative project that aims to explore cultural trends and static forms through artistic statements. It incorporates introspection and theoretical concepts to create deep conceptual interpretations of everyday experiences. Gezt&aring;lt also hosts electroacoustic and music parties, becoming pioneers of Eastern European hyperpop`
+                        },
+                        {
+                            link: '../../../../html/projects/audio/eli.html',
+                            imgSrc: '../../../../images/eli_lab/eli_logo.jpg',
+                            alt: 'Eli Lab (Ilya Minin)',
+                            title: 'Eli Lab (Ilya Minin)',
+                            description: `Eli is an artist exploring diverse categories and forms of expression. He captivates his audience by meticulously attending to details, employing imaginative methods and uncommon materials to express emotions in paintings, sculptures and installations`
+                        },
+                        {
+                            link: '../../../../html/projects/audio/tanerlach.html',
+                            imgSrc: '../../../../images/Geztalt/geztalt_scr_2.png',
+                            alt: 'Tanerlach',
+                            title: 'Tanerlach',
+                            description: 'Electroacoustic pop project'
+                        }
+                    ], 'portfolioContainer');
+                });
+            </script>
+
+    
+<footer>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>&copy; eli_lab 2025</p>
+      </div>
+    </div>
+  </footer>
+
+
+        <script src="../../../../js/jquery.js"></script>
+        <script src="../../../../js/bootstrap.min.js"></script>
+        <script src="../../../../js/breadcrumb.js"></script>
+        <script src="../../../../js/breadcrumb-map.js"></script>
+        <script src="../../../../js/my-carousel.js"></script>
+        <script src="../../../../js/nav-menu.js"></script>
+</body>
+
+</html>

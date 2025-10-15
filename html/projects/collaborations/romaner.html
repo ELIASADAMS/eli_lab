@@ -1,134 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-<study>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>eli_lab</title>
-  <meta name="description" content="eli_lab">
-  <link href="../css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../css/modern-business.css" rel="stylesheet" />
-  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-</study>
 
-<body> 
-  <div class="container">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eli_lab</title>
+    <meta name="description" content="eli_lab">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../css/modern-business.css" rel="stylesheet" />
+    <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"></h1>
+                <ol class="breadcrumb"></ol>
+            </div>
+
+            <div id="portfolioContainer"></div>
+            <script type="module" src="../../../../js/projects_text.js"></script>
+            <script type="module">
+                import { createPortfolioText } from '../../../../js/projects_text.js';
+                document.addEventListener('DOMContentLoaded', () => {
+                    createPortfolioText([
+                        {
+                            link: '../../../../html/projects/audio/geztalt.html',
+                            imgSrc: '../../../../images/Geztalt/geztalt_scr_2.png',
+                            alt: 'Geztålt',
+                            title: 'Geztålt',
+                            description: `Gezt&aring;lt is a collaborative project that aims to explore cultural trends and static forms through artistic statements. It incorporates introspection and theoretical concepts to create deep conceptual interpretations of everyday experiences. Gezt&aring;lt also hosts electroacoustic and music parties, becoming pioneers of Eastern European hyperpop`
+                        },
+                        {
+                            link: '../../../../html/projects/audio/eli.html',
+                            imgSrc: '../../../../images/eli_lab/eli_logo.jpg',
+                            alt: 'Eli Lab (Ilya Minin)',
+                            title: 'Eli Lab (Ilya Minin)',
+                            description: `Eli is an artist exploring diverse categories and forms of expression. He captivates his audience by meticulously attending to details, employing imaginative methods and uncommon materials to express emotions in paintings, sculptures and installations`
+                        },
+                        {
+                            link: '../../../../html/projects/audio/tanerlach.html',
+                            imgSrc: '../../../../images/Geztalt/geztalt_scr_2.png',
+                            alt: 'Tanerlach',
+                            title: 'Tanerlach',
+                            description: 'Electroacoustic pop project'
+                        }
+                    ], 'portfolioContainer');
+                });
+            </script>
+
+    
+<footer>
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="page-Studyer">Romaner</h1>
-        <ol class="breadcrumb">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../html/projects/collaborations.html">Collaborations</a></li>
-          <li class="active">Romaner</li>
-        </ol>
+        <p>&copy; eli_lab 2025</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_3.jpeg"
-            alt="">
-          <div class="caption">
-            <h3>Study 1<br><small>2022</small></h3>
-            <p>Mixed Technique</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_2.jpeg"
-            alt="">
-          <div class="caption">
-            <h3>Study 2<br><small>2022</small></h3>
-            <p>Mixed Technique</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_1.jpeg"
-            alt="">
-          <div class="caption">
-            <h3>Study 3<br><small>2022</small></h3>
-            <p>Mixed Technique</p>
-          </div>
-        </div>
-      </div>
-    </div><!-- /.row -->
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_5.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 1<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_6.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 2<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_7.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 3<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_8.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 4<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_9.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 5<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_10.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 6<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="thumbnail"><img class="img-responsive" src="../images/Artwork/Mixed Technique/mixed_technique_11.png"
-            alt="">
-          <div class="caption">
-            <h3>Anthology of Black Humor 7<br><small>2022</small></h3>
-            <p>Photo collage, manual processing</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr><!-- Footer -->
-    <footer>
-      <div class="row">
-        <div class="col-lg-12">
-          <p>&copy; eli_lab, 2025</p>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../../js/nav-menu.js" defer></script>
+  </footer>
+
+            <script src="../../../../js/jquery.js"></script>
+            <script src="../../../../js/bootstrap.min.js"></script>
+            <script src="../../../../js/breadcrumb.js"></script>
+            <script src="../../../../js/breadcrumb-map.js"></script>
+            <script src="../../../../js/my-carousel.js"></script>
+            <script src="../../../../js/nav-menu.js"></script>
 </body>
 
 </html>
