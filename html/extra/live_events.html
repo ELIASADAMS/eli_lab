@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../../css/modern-business.css" rel="stylesheet" />
+  <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="main-nav"></nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+        <ol class="breadcrumb"></ol>
+      </div>
+    </div>
+
+    <div id="live-events-container"></div>
+
+    <script type="module">
+      import { createLiveEvents } from '../../../js/liveEvents.js';
+
+      document.addEventListener('DOMContentLoaded', () => {
+        createLiveEvents([
+          {
+            date: 'June 17, 2014',
+            eventUrl: '../../../html/extra/live events/la1.html',
+            imgSrc: '../../../images/workinprogress 600x300.png',
+            imgAlt: 'Work in progress',
+            title: 'Concert at LA',
+            authorUrl: '#',
+            authorName: 'Ilya Minin (Eli)',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          },
+          {
+            date: 'June 17, 2014',
+            eventUrl: '../../../html/extra/brief_history.html',
+            imgSrc: '../../../images/Aud and Gen/audngen_preview.png',
+            imgAlt: 'Project preview',
+            title: 'Project',
+            authorUrl: '#',
+            authorName: 'Ilya Minin (Eli)',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          },
+          // add more events here...
+        ], 'live-events-container');
+      });
+    </script>
+
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy; eli_lab 2025</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="../../../js/jquery.js"></script>
+  <script src="../../../js/bootstrap.min.js"></script>
+  <script src="../../../js/breadcrumb.js"></script>
+  <script src="../../../js/breadcrumb-map.js"></script>
+  <script src="../../../js/my-carousel.js"></script>
+  <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>

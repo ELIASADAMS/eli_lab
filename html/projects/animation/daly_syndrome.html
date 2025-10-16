@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../../css/modern-business.css" rel="stylesheet" />
+  <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+        <ol class="breadcrumb"></ol>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div id="my-carousel-container"></div>
+        <script src="../js/my-carousel.js" defer></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            createCarousel([
+              '../../../images/Daly Syndrome/daly_scrn_1.png',
+              '../../../images/Daly Syndrome/daly_scrn_2.png',
+              '../../../images/Daly Syndrome/daly_scrn_3.png',
+              '../../../images/Daly Syndrome/daly_scrn_4.png'
+            ], 'my-carousel-container');
+          });
+        </script>
+      </div>
+      <div>
+
+        <div class="col-md-4">
+          </p> <a href="../html/nav/about.html">
+            <p><strong>Eli</strong>
+          </a> - Director, Screenwriter</p>
+          </p> <a href="">
+            <p><strong>Blikk</strong>
+          </a>- Animator, Rendering</p>
+          </p> <a href="../../../html/projects/collaborations/nipagana.html">
+            <p><strong>Spalah</strong>
+          </a> - Production Designer, Technologist</p>
+          </p> <a href="../../../html/projects/collaborations/romaner.html">
+            <p><strong>Romaner</strong>
+          </a> - Consultant, Support</p>
+          </p> <a href="../../../html/projects/collaborations/marysia_izdebska.html">
+            <p><strong>Marusia Izdebska</strong>
+          </a> - Voiceover, Support
+          </p> <a href="../../../html/projects/collaborations/sasha_e__b.html">
+            <p><strong>e/6</strong>
+          </a> - SFX, Soundtrack</p>
+          <p><strong>2023</strong></p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="container" id="history-container"></div>
+      <script src="../../../js/content-section.js" type="module" defer></script>
+      <script type="module" defer>
+        import { createHistoryBlocks } from '../../../js/content-section.js';
+        document.addEventListener('DOMContentLoaded', () => {
+          createHistoryBlocks([
+            {
+              iconClass: 'fa-camera',
+              linkUrl: '../../../html/workinprogress.html',
+              imgSrc: '../../../images/Daly Syndrome/firstencounter.jpg',
+              imgAlt: '',
+              headingText: 'Early versions and technical screenshots',
+              paragraphs: [
+                '&nbsp; &nbsp;- Showcase of early screenshots and concept arts from the project',
+                '&nbsp; &nbsp;- Sneak peek into the visual style, characters, and environments of the animated world',
+                '&nbsp; &nbsp;- Evolution of the art direction',
+              ],
+            },
+            {
+              iconClass: 'fa-film',
+              linkUrl: '../../../html/workinprogress.html',
+              imgSrc: '../../../images/workinprogress 600x300.png',
+              imgAlt: '',
+              headingText: 'Models, Locations, Documents',
+              paragraphs: [
+                '&nbsp; &nbsp;- 3D models created for the cartoon, including characters, props, and scenery.',
+                '&nbsp; &nbsp;- Gifferent locations highlights and behind-the-scenes details.',
+                '&nbsp; &nbsp;- Character bios, storyboards, and world-building materials.',
+              ],
+            },
+            {
+              iconClass: 'fa-file-text',
+              linkUrl: '../../../html/workinprogress.html',
+              imgSrc: '../../../images/workinprogress 600x300.png',
+              imgAlt: '',
+              headingText: 'Technical bugs and jokes',
+              paragraphs: [
+                '&nbsp; &nbsp;- Bloopers and humorous moments from the creative journey.',
+              ],
+            },
+          ], 'history-container');
+        });
+      </script>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>&copy; eli_lab 2025</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/breadcrumb.js"></script>
+    <script src="../../../js/breadcrumb-map.js"></script>
+    <script src="../../../js/my-carousel.js"></script>
+    <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>

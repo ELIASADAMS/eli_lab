@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../css/modern-business.css" rel="stylesheet" />
+  <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="main-nav"></nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+        <ol class="breadcrumb"></ol>
+      </div>
+
+      <div id="portfolioContainer"></div>
+      <script type="module" src="../../../js/projects_text.js"></script>
+      <script type="module">
+        import { createPortfolioText } from '../../../js/projects_text.js';
+        document.addEventListener('DOMContentLoaded', () => {
+          createPortfolioText([
+            {
+              link: '../../html/projects/interactive/belial.html',
+              imgSrc: '../../images/Belial/belial_soft_preview.png',
+              alt: 'Belial',
+              title: 'Belial',
+              description: `<p style="text-align: justify;">is an innovative software that offers an accessible set of tools for sound art
+          performance
+          and its aim is to free musicians from the limitations of traditional software.&nbsp;</p>
+        <p style="text-align: justify;">The software offers the freedom to experiment and explore the possibilities of
+          real-time sound generation, has a simple interface and intuitive functionality, making it a worthy tool for
+          anyone interested in sound art.</p>`
+            }
+          ], 'portfolioContainer');
+        });
+      </script>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>&copy; eli_lab 2025</p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="../../../js/jquery.js"></script>
+      <script src="../../../js/bootstrap.min.js"></script>
+      <script src="../../../js/breadcrumb.js"></script>
+      <script src="../../../js/breadcrumb-map.js"></script>
+      <script src="../../../js/my-carousel.js"></script>
+      <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>

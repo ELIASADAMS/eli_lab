@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/modern-business.css" rel="stylesheet" />
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="main-nav"></nav>
+
+  <header id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="fill" style="background-color:  #010203;">
+        </div>
+        <div class="carousel-caption">
+          <div class="ncontainer">
+            <h2 class="ntitle">
+              <span class="title-nword title-nword-1">The</span>
+              <span class="title-nword title-nword-2">extent</span>
+              <span class="title-nword title-nword-3">of</span>
+              <span class="title-nword title-nword-4">distress</span>
+              <span class="title-nword title-nword-5">and</span>
+              <span class="title-nword title-nword-6">absence</span>
+              <span class="title-nword title-nword-7">of</span>
+              <span class="title-nword title-nword-1">peace</span>
+              <span class="title-nword title-nword-2">and</span>
+              <span class="title-nword title-nword-3">of</span>
+              <span class="title-nword title-nword-4">regard</span>
+              <span class="title-nword title-nword-5">for</span>
+              <span class="title-nword title-nword-6">others</span>
+              <span class="title-nword title-nword-7">is</span>
+              <span class="title-nword title-nword-1">shocking</span>
+              <span class="title-nword title-nword-2">to</span>
+              <span class="title-nword title-nword-3">witness</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-color:  #010203;">
+          <div class="carousel-caption">
+            <div class="ncontainer">
+              <h2 class="ntitle">
+                <span class="title-nword title-nword-1">From</span>
+                <span class="title-nword title-nword-2">Chaos</span>
+                <span class="title-nword title-nword-3">to</span>
+                <span class="title-nword title-nword-4">Pieces</span>
+                <span class="title-nword title-nword-5">of</span>
+                <span class="title-nword title-nword-6">the</span>
+                <span class="title-nword title-nword-7">Whole</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-color:  #010203;">
+          <div class="carousel-caption">
+            <div class="ncontainer">
+              <h2 class="ntitle">
+                <span class="title-nword title-nword-1">Freundschaft</span>
+                <span class="title-nword title-nword-2">und</span>
+                <span class="title-nword title-nword-3">Zusammenarbeit</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a><a
+        class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
+  </header>
+  <div class="container">
+
+    <!-- Portfolio Section -->
+    <div id="portfolioContainer" class="portfolio-section"></div>
+    <script type="module" src="./js/projects_3.js"></script>
+    <script type="module">
+      import { createPortfolio } from './js/projects_3.js';
+      document.addEventListener('DOMContentLoaded', () => {
+        createPortfolio([
+          { link: 'html/projects/animation/ewp_project.html', imgSrc: 'images/EWP Project/ewp_scr_2_preview.png', alt: 'EWP Project Preview' },
+          { link: 'html/projects/animation/daly_syndrome.html', imgSrc: 'images/Daly Syndrome/daly_prew.png', alt: 'Daly Syndrome Preview' },
+          { link: 'html/projects/audio/geztalt.html', imgSrc: 'images/Geztalt/geztalt_scr_2_preview.png', alt: 'Geztalt Preview' },
+          { link: 'html/projects/audio/eli.html', imgSrc: 'images/eli_lab/eli_logo_preview.png', alt: 'Eli Lab Logo' },
+          { link: 'html/projects/interactive/belial.html', imgSrc: 'images/Belial/belial_soft_preview.png', alt: 'Belial Soft Preview' },
+          { link: 'html/projects/games/outsider.html', imgSrc: 'images/Games/outsider_preview_2.png', alt: 'Outsider Game Preview' }
+        ], 'portfolioContainer');
+      });
+    </script>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy; eli_lab 2025</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/nav-menu.js" defer></script>
+  <script src="js/carousel-init.js"></script>
+</body>
+
+</html>

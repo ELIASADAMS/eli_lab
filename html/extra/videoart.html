@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eli_lab</title>
+    <meta name="description" content="eli_lab">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../css/modern-business.css" rel="stylesheet" />
+    <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="main-nav"></nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"></h1>
+                <ol class="breadcrumb"></ol>
+            </div>
+        </div>
+
+        <div id="video-art-container"></div>
+        <script type="module">
+            import { createVideoGallery } from '../../js/videoGallery.js';
+            const videoArtData = [
+                {
+                    label: 'Experimental Video Art',
+                    title: 'Experimental Video Art',
+                    videos: [
+                        {
+                            src: 'https://www.youtube.com/embed/xTysVDBJwpE?si=Vldpl5Cshq-_5FtP',
+                            title: 'Abstract Shapes Animation',
+                            description: 'A fluid motion study with abstract shapes exploring spatial relationships.'
+                        },
+                        {
+                            src: 'https://www.youtube.com/embed/P-SJO5ZmFTo?si=Wwzd1m8X262-klVu',
+                            title: 'Glitch Art Experiment',
+                            description: 'Playing with digital glitches and distortion effects to emulate data decay.'
+                        }
+                    ]
+                },
+                {
+                    label: 'Narrative Visual Stories',
+                    title: 'Narrative Visual Stories',
+                    videos: [
+                        {
+                            src: 'https://www.youtube.com/embed/j1hq6xUp420?si=xl48WZ1pqoJbj3zs',
+                            title: 'Fragmented Memories',
+                            description: 'A short story told through fractured visuals and fragmented timeline editing.'
+                        },
+                        {
+                            src: 'https://www.youtube.com/embed/5xEy5C2iNIY?si=Gd9TtUInXhnI7ys4',
+                            title: 'Urban Dreams',
+                            description: 'Dreamlike scenes of cityscapes blended with surreal animation layers.'
+                        }
+                    ]
+                }
+            ];
+            const container = document.getElementById('video-art-container');
+            createVideoGallery(container, videoArtData);
+        </script>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; eli_lab 2025</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/breadcrumb.js"></script>
+    <script src="../../../js/breadcrumb-map.js"></script>
+    <script src="../../../js/my-carousel.js"></script>
+    <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>

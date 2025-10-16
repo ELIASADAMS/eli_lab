@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../../css/modern-business.css" rel="stylesheet" />
+  <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+        <ol class="breadcrumb"></ol>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div id="my-carousel-container"></div>
+          <script src="../js/my-carousel.js" defer></script>
+          <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              createCarousel([
+                '../../../images/Belial/belial_soft_long.png'
+              ], 'my-carousel-container');
+            });
+          </script>
+        </div>
+        <div>
+
+          <div class="col-md-4">
+            <p style="text-align: justify;"><strong>Belial&nbsp;</strong>is an innovative software that offers a
+              revolution
+              in performance and interactive art.&nbsp;</p>
+            <p style="text-align: justify;">The software is based on algorithms and allows the creation and generation
+              of
+              music with or without human participation. Belial offers an accessible set of tools for sound art
+              performance
+              and its aim is to free musicians from the limitations of traditional software.&nbsp;</p>
+            <p style="text-align: justify;">The software offers the freedom to experiment and explore the possibilities
+              of
+              real-time sound generation, and it is suitable for professionals and beginners alike. Belial has a simple
+              interface and intuitive functionality, making it a worthy tool for anyone interested in sound art.</p>
+            <p style="text-align: justify;">Investing in Belial is an investment in the future of sound art, as it
+              offers
+              cutting edge technology and revolutionary design.&nbsp;</p>
+            <p style="text-align: justify;">The programme author hopes that Belial will inspire new musical experiences
+              and
+              looks forward to collaborating with a wide audience.</p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="container" id="history-container"></div>
+        <script src="../../../js/content-section.js" type="module" defer></script>
+        <script type="module" defer>
+          import { createHistoryBlocks } from '../../../js/content-section.js';
+          document.addEventListener('DOMContentLoaded', () => {
+            createHistoryBlocks([
+              {
+                iconClass: 'fa-camera',
+                linkUrl: '../../../html/workinprogress.html',
+                imgSrc: '../../../images/Daly Syndrome/firstencounter.jpg',
+                imgAlt: '',
+                headingText: 'Early versions and technical screenshots',
+                paragraphs: [
+                  '&nbsp; &nbsp;- Showcase of early screenshots and concept arts from the project',
+                  '&nbsp; &nbsp;- Sneak peek into the visual style, characters, and environments of the animated world',
+                  '&nbsp; &nbsp;- Evolution of the art direction',
+                ],
+              },
+              {
+                iconClass: 'fa-film',
+                linkUrl: '../../../html/workinprogress.html',
+                imgSrc: '../../../images/workinprogress 600x300.png',
+                imgAlt: '',
+                headingText: 'Models, Locations, Documents',
+                paragraphs: [
+                  '&nbsp; &nbsp;- 3D models created for the cartoon, including characters, props, and scenery.',
+                  '&nbsp; &nbsp;- Gifferent locations highlights and behind-the-scenes details.',
+                  '&nbsp; &nbsp;- Character bios, storyboards, and world-building materials.',
+                ],
+              },
+              {
+                iconClass: 'fa-file-text',
+                linkUrl: '../../../html/workinprogress.html',
+                imgSrc: '../../../images/workinprogress 600x300.png',
+                imgAlt: '',
+                headingText: 'Technical bugs and jokes',
+                paragraphs: [
+                  '&nbsp; &nbsp;- Bloopers and humorous moments from the creative journey.',
+                ],
+              },
+            ], 'history-container');
+          });
+        </script>
+
+        <footer>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>&copy; eli_lab 2025</p>
+            </div>
+          </div>
+        </footer>
+
+        <script src="../../../js/jquery.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script src="../../../js/breadcrumb.js"></script>
+        <script src="../../../js/breadcrumb-map.js"></script>
+        <script src="../../../js/my-carousel.js"></script>
+        <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>

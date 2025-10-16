@@ -1,0 +1,93 @@
+@keyframes txtside8 {
+    0% {
+        transform: scaleY(0);
+        transform-origin: 100%0
+    }
+
+    to {
+        transform: scaleY(1);
+        transform-origin: 100%0
+    }
+}
+
+@keyframes txtside9 {
+    0% {
+        transform: scale(2)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes txtside10 {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+
+    footer {
+        margin: 50px 0;
+        animation: txtside10 1s linear 0s normal both
+    }
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    padding-top: 50px;
+    animation: txtside8 .5s ease 0s 1 normal both
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+    animation: txtside9 1s ease 0s normal both
+}
+
+.img-hover:hover {
+    opacity: .8
+}
+
+header.carousel {
+    height: 50%
+}
+
+header.carousel .carousel-inner,
+header.carousel .fill,
+header.carousel .item,
+header.carousel .item.active {
+    height: 100%;
+    animation: txtside10 1s linear 0s normal both
+}
+
+header.carousel .fill {
+    width: 100%;
+    background-position: center;
+    background-size: cover
+}
+
+@media (max-width:991px) {
+
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px
+    }
+
+    header.carousel .carousel {
+        height: 70%
+    }
+}

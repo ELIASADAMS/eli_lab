@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eli_lab</title>
+  <meta name="description" content="eli_lab" />
+  <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../css/modern-business.css" rel="stylesheet" />
+  <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="main-nav"></nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+        <ol class="breadcrumb"></ol>
+      </div>
+    </div>
+
+    <div id="art-practice-root"></div>
+    <script type="module">
+      import { renderArtPracticeSection } from '../../../js/artPracticeGallery.js';
+      const artPracticeItems = [
+        {
+          link: '../../html/extra/art_practice/serial_experiments_lens.html',
+          imgSrc: '../../images/Serial Experiments Lens/sel preview.png',
+          imgAlt: 'Serial Experiments Lens preview',
+          title: 'Serial Experiments Lens',
+          iconClass: '',
+          iconText: ''
+        },
+        {
+          link: '../../html/extra/art_practice/graphics.html',
+          imgSrc: '../../images/Artwork/Graphics/Jewish gift/jewgift_preview.png',
+          imgAlt: 'Graphics preview',
+          title: 'Graphics'
+        },
+        {
+          link: '../../html/extra/art_practice/painting.html',
+          imgSrc: '../../images/Artwork/Painting/painting_preview.png',
+          imgAlt: 'Painting preview',
+          title: 'Painting'
+        },
+        {
+          link: '../../html/extra/art_practice/cgi.html',
+          imgSrc: '../../images/workinprogress 750x450.png',
+          imgAlt: 'CGI preview',
+          title: 'CGI'
+        },
+        {
+          link: '../../html/extra/art_practice/installations.html',
+          imgSrc: '../../images/Artwork/Installations/installations_preview1.png',
+          imgAlt: 'Installations preview',
+          title: 'Installations'
+        },
+        {
+          link: '../../html/extra/art_practice/mixed_tech.html',
+          imgSrc: '../../images/Artwork/Mixed Technique/mixed_technique_preview.png',
+          imgAlt: 'Mixed Technique preview',
+          title: 'Mixed Technique'
+        },
+        {
+          link: '../../html/extra/art_practice/photoseries.html',
+          imgSrc: '../../images/Photoseries/photoseries_preview.png',
+          imgAlt: 'Photoseries preview',
+          title: 'Photoseries'
+        },
+        {
+          link: '../../html/extra/art_practice/single_photos.html',
+          imgSrc: '../../images/Artwork/Single Photos/single_photos_preview.png',
+          imgAlt: 'Single Photos preview',
+          title: 'Single Photos'
+        }
+      ];
+      renderArtPracticeSection('art-practice-root', artPracticeItems);
+    </script>
+
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy; eli_lab 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/breadcrumb.js"></script>
+    <script src="../../../js/breadcrumb-map.js"></script>
+    <script src="../../../js/my-carousel.js"></script>
+    <script src="../../../js/nav-menu.js"></script>
+</body>
+
+</html>
