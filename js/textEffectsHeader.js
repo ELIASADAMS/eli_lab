@@ -1,9 +1,9 @@
 // textEffectsHeader.js
 export function injectTextEffectsHeader(targetSelector = '#text-effects-header') {
-    const container = document.querySelector(targetSelector);
-    if (!container) return;
-  
-    const headerHTML = `
+  const container = document.querySelector(targetSelector);
+  if (!container) return;
+
+  const headerHTML = `
       <header id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
           <div class="item active">
@@ -67,7 +67,6 @@ export function injectTextEffectsHeader(targetSelector = '#text-effects-header')
         <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
       </header>
     `;
-  
-    container.innerHTML = headerHTML;
-  }
-  
+
+  container.innerHTML = headerHTML;
+}

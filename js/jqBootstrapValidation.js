@@ -345,10 +345,10 @@
             message = message
               ? message
               : "'" +
-                el +
-                "' validation failed <!-- Add attribute 'data-validation-" +
-                el.toLowerCase() +
-                "-message' to input to change this message -->";
+              el +
+              "' validation failed <!-- Add attribute 'data-validation-" +
+              el.toLowerCase() +
+              "-message' to input to change this message -->";
 
             $.each(
               settings.validatorTypes,
@@ -360,8 +360,8 @@
                   !foundValidator &&
                   $this.data(
                     "validation" +
-                      el +
-                      formatValidatorName(validatorTemplate.name)
+                    el +
+                    formatValidatorName(validatorTemplate.name)
                   ) !== undefined
                 ) {
                   validators[validatorType].push(
@@ -408,8 +408,8 @@
                     ) {
                       $this.data(
                         "validation" +
-                          el +
-                          formatValidatorName(validatorTemplate.name),
+                        el +
+                        formatValidatorName(validatorTemplate.name),
                         validator[validatorTemplate.name.toLowerCase()]
                       );
                       validators[validatorType].push(
@@ -566,19 +566,19 @@
                   // Only one? Being strict? Just output it.
                   $helpBlock.html(
                     errorsFound[0] +
-                      (settings.options.prependExistingHelpBlock
-                        ? $helpBlock.data("original-contents")
-                        : "")
+                    (settings.options.prependExistingHelpBlock
+                      ? $helpBlock.data("original-contents")
+                      : "")
                   );
                 } else {
                   // Multiple? Being sloppy? Glue them together into an UL.
                   $helpBlock.html(
                     '<ul role="alert"><li>' +
-                      errorsFound.join("</li><li>") +
-                      "</li></ul>" +
-                      (settings.options.prependExistingHelpBlock
-                        ? $helpBlock.data("original-contents")
-                        : "")
+                    errorsFound.join("</li><li>") +
+                    "</li></ul>" +
+                    (settings.options.prependExistingHelpBlock
+                      ? $helpBlock.data("original-contents")
+                      : "")
                   );
                 }
               } else {
@@ -647,8 +647,8 @@
           errorMessages = errorMessages.concat(
             $(el).triggerHandler("getValidators.validation")
               ? $(el).triggerHandler("validation.validation", {
-                  submitting: true,
-                })
+                submitting: true,
+              })
               : []
           );
         });

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let relativePath = path.slice(5);
   const segments = relativePath.split('/').filter(Boolean);
 
-  const excludeFolders = ['projects']; // add folder names to exclude if needed
+  const excludeFolders = ['projects','extra']; // add folder names to exclude if needed
 
   function stripExtension(filename) {
     const lastDotIndex = filename.lastIndexOf('.');

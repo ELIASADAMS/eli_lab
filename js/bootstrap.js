@@ -134,8 +134,8 @@ if (typeof jQuery === "undefined") {
 
     $.support.transition && $parent.hasClass("fade")
       ? $parent
-          .one("bsTransitionEnd", removeElement)
-          .emulateTransitionEnd(Alert.TRANSITION_DURATION)
+        .one("bsTransitionEnd", removeElement)
+        .emulateTransitionEnd(Alert.TRANSITION_DURATION)
       : removeElement();
   };
 
@@ -538,7 +538,7 @@ if (typeof jQuery === "undefined") {
     var $this = $(this);
     var $target = $(
       $this.attr("data-target") ||
-        ((href = $this.attr("href")) && href.replace(/.*(?=#[^\s]+$)/, ""))
+      ((href = $this.attr("href")) && href.replace(/.*(?=#[^\s]+$)/, ""))
     ); // strip for ie7
     if (!$target.hasClass("carousel")) return;
     var options = $.extend({}, $target.data(), $this.data());
@@ -587,11 +587,11 @@ if (typeof jQuery === "undefined") {
     this.options = $.extend({}, Collapse.DEFAULTS, options);
     this.$trigger = $(
       '[data-toggle="collapse"][href="#' +
-        element.id +
-        '"],' +
-        '[data-toggle="collapse"][data-target="#' +
-        element.id +
-        '"]'
+      element.id +
+      '"],' +
+      '[data-toggle="collapse"][data-target="#' +
+      element.id +
+      '"]'
     );
     this.transitioning = null;
 
@@ -644,7 +644,7 @@ if (typeof jQuery === "undefined") {
     this.$element
       .removeClass("collapse")
       .addClass("collapsing")
-      [dimension](0)
+    [dimension](0)
       .attr("aria-expanded", true);
 
     this.$trigger.removeClass("collapsed").attr("aria-expanded", true);
@@ -655,7 +655,7 @@ if (typeof jQuery === "undefined") {
       this.$element
         .removeClass("collapsing")
         .addClass("collapse in")
-        [dimension]("");
+      [dimension]("");
       this.transitioning = 0;
       this.$element.trigger("shown.bs.collapse");
     };
@@ -667,7 +667,7 @@ if (typeof jQuery === "undefined") {
     this.$element
       .one("bsTransitionEnd", $.proxy(complete, this))
       .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
-      [dimension](this.$element[0][scrollSize]);
+    [dimension](this.$element[0][scrollSize]);
   };
 
   Collapse.prototype.hide = function () {
@@ -1090,10 +1090,10 @@ if (typeof jQuery === "undefined") {
 
       transition
         ? that.$dialog // wait for modal to slide in
-            .one("bsTransitionEnd", function () {
-              that.$element.trigger("focus").trigger(e);
-            })
-            .emulateTransitionEnd(Modal.TRANSITION_DURATION)
+          .one("bsTransitionEnd", function () {
+            that.$element.trigger("focus").trigger(e);
+          })
+          .emulateTransitionEnd(Modal.TRANSITION_DURATION)
         : that.$element.trigger("focus").trigger(e);
     });
   };
@@ -1123,8 +1123,8 @@ if (typeof jQuery === "undefined") {
 
     $.support.transition && this.$element.hasClass("fade")
       ? this.$element
-          .one("bsTransitionEnd", $.proxy(this.hideModal, this))
-          .emulateTransitionEnd(Modal.TRANSITION_DURATION)
+        .one("bsTransitionEnd", $.proxy(this.hideModal, this))
+        .emulateTransitionEnd(Modal.TRANSITION_DURATION)
       : this.hideModal();
   };
 
@@ -1215,8 +1215,8 @@ if (typeof jQuery === "undefined") {
 
       doAnimate
         ? this.$backdrop
-            .one("bsTransitionEnd", callback)
-            .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION)
+          .one("bsTransitionEnd", callback)
+          .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION)
         : callback();
     } else if (!this.isShown && this.$backdrop) {
       this.$backdrop.removeClass("in");
@@ -1227,8 +1227,8 @@ if (typeof jQuery === "undefined") {
       };
       $.support.transition && this.$element.hasClass("fade")
         ? this.$backdrop
-            .one("bsTransitionEnd", callbackRemove)
-            .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION)
+          .one("bsTransitionEnd", callbackRemove)
+          .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION)
         : callbackRemove();
     } else if (callback) {
       callback();
@@ -1342,17 +1342,17 @@ if (typeof jQuery === "undefined") {
       var href = $this.attr("href");
       var $target = $(
         $this.attr("data-target") ||
-          (href && href.replace(/.*(?=#[^\s]+$)/, ""))
+        (href && href.replace(/.*(?=#[^\s]+$)/, ""))
       ); // strip for ie7
       var option = $target.data("bs.modal")
         ? "toggle"
         : $.extend(
-            {
-              remote: !/#/.test(href) && href,
-            },
-            $target.data(),
-            $this.data()
-          );
+          {
+            remote: !/#/.test(href) && href,
+          },
+          $target.data(),
+          $this.data()
+        );
 
       if ($this.is("a")) e.preventDefault();
 
@@ -1439,14 +1439,14 @@ if (typeof jQuery === "undefined") {
     ) {
       throw new Error(
         "`selector` option must be specified when initializing " +
-          this.type +
-          " on the window.document object!"
+        this.type +
+        " on the window.document object!"
       );
     }
 
     var triggers = this.options.trigger.split(" ");
 
-    for (var i = triggers.length; i--; ) {
+    for (var i = triggers.length; i--;) {
       var trigger = triggers[i];
 
       if (trigger == "click") {
@@ -1474,9 +1474,9 @@ if (typeof jQuery === "undefined") {
 
     this.options.selector
       ? (this._options = $.extend({}, this.options, {
-          trigger: "manual",
-          selector: "",
-        }))
+        trigger: "manual",
+        selector: "",
+      }))
       : this.fixTitle();
   };
 
@@ -1633,16 +1633,16 @@ if (typeof jQuery === "undefined") {
 
         placement =
           placement == "bottom" &&
-          pos.bottom + actualHeight > viewportDim.bottom
+            pos.bottom + actualHeight > viewportDim.bottom
             ? "top"
             : placement == "top" && pos.top - actualHeight < viewportDim.top
-            ? "bottom"
-            : placement == "right" &&
-              pos.right + actualWidth > viewportDim.width
-            ? "left"
-            : placement == "left" && pos.left - actualWidth < viewportDim.left
-            ? "right"
-            : placement;
+              ? "bottom"
+              : placement == "right" &&
+                pos.right + actualWidth > viewportDim.width
+                ? "left"
+                : placement == "left" && pos.left - actualWidth < viewportDim.left
+                  ? "right"
+                  : placement;
 
         $tip.removeClass(orgPlacement).addClass(placement);
       }
@@ -1666,8 +1666,8 @@ if (typeof jQuery === "undefined") {
 
       $.support.transition && this.$tip.hasClass("fade")
         ? $tip
-            .one("bsTransitionEnd", complete)
-            .emulateTransitionEnd(Tooltip.TRANSITION_DURATION)
+          .one("bsTransitionEnd", complete)
+          .emulateTransitionEnd(Tooltip.TRANSITION_DURATION)
         : complete();
     }
   };
@@ -1774,8 +1774,8 @@ if (typeof jQuery === "undefined") {
 
     $.support.transition && $tip.hasClass("fade")
       ? $tip
-          .one("bsTransitionEnd", complete)
-          .emulateTransitionEnd(Tooltip.TRANSITION_DURATION)
+        .one("bsTransitionEnd", complete)
+        .emulateTransitionEnd(Tooltip.TRANSITION_DURATION)
       : complete();
 
     this.hoverState = null;
@@ -1813,12 +1813,12 @@ if (typeof jQuery === "undefined") {
     // See https://github.com/twbs/bootstrap/issues/20280
     var elOffset = isBody
       ? {
-          top: 0,
-          left: 0,
-        }
+        top: 0,
+        left: 0,
+      }
       : isSvg
-      ? null
-      : $element.offset();
+        ? null
+        : $element.offset();
     var scroll = {
       scroll: isBody
         ? document.documentElement.scrollTop || document.body.scrollTop
@@ -1826,9 +1826,9 @@ if (typeof jQuery === "undefined") {
     };
     var outerDims = isBody
       ? {
-          width: $(window).width(),
-          height: $(window).height(),
-        }
+        width: $(window).width(),
+        height: $(window).height(),
+      }
       : null;
 
     return $.extend({}, elRect, scroll, outerDims, elOffset);
@@ -1842,23 +1842,23 @@ if (typeof jQuery === "undefined") {
   ) {
     return placement == "bottom"
       ? {
-          top: pos.top + pos.height,
-          left: pos.left + pos.width / 2 - actualWidth / 2,
-        }
+        top: pos.top + pos.height,
+        left: pos.left + pos.width / 2 - actualWidth / 2,
+      }
       : placement == "top"
-      ? {
+        ? {
           top: pos.top - actualHeight,
           left: pos.left + pos.width / 2 - actualWidth / 2,
         }
-      : placement == "left"
-      ? {
-          top: pos.top + pos.height / 2 - actualHeight / 2,
-          left: pos.left - actualWidth,
-        }
-      : /* placement == 'right' */ {
-          top: pos.top + pos.height / 2 - actualHeight / 2,
-          left: pos.left + pos.width,
-        };
+        : placement == "left"
+          ? {
+            top: pos.top + pos.height / 2 - actualHeight / 2,
+            left: pos.left - actualWidth,
+          }
+          : /* placement == 'right' */ {
+            top: pos.top + pos.height / 2 - actualHeight / 2,
+            left: pos.left + pos.width,
+          };
   };
 
   Tooltip.prototype.getViewportAdjustedDelta = function (
@@ -1932,7 +1932,7 @@ if (typeof jQuery === "undefined") {
       if (this.$tip.length != 1) {
         throw new Error(
           this.type +
-            " `template` option must consist of exactly 1 top-level element!"
+          " `template` option must consist of exactly 1 top-level element!"
         );
       }
     }
@@ -2070,13 +2070,13 @@ if (typeof jQuery === "undefined") {
       .children()
       .detach()
       .end() // we use append for html objects to maintain js events
-      [
-        this.options.html
-          ? typeof content == "string"
-            ? "html"
-            : "append"
-          : "text"
-      ](content);
+    [
+      this.options.html
+        ? typeof content == "string"
+          ? "html"
+          : "append"
+        : "text"
+    ](content);
 
     $tip.removeClass("fade top bottom left right in");
 
@@ -2241,7 +2241,7 @@ if (typeof jQuery === "undefined") {
       return this.clear();
     }
 
-    for (i = offsets.length; i--; ) {
+    for (i = offsets.length; i--;) {
       activeTarget != targets[i] &&
         scrollTop >= offsets[i] &&
         (offsets[i + 1] === undefined || scrollTop < offsets[i + 1]) &&
@@ -2426,8 +2426,8 @@ if (typeof jQuery === "undefined") {
 
     $active.length && transition
       ? $active
-          .one("bsTransitionEnd", next)
-          .emulateTransitionEnd(Tab.TRANSITION_DURATION)
+        .one("bsTransitionEnd", next)
+        .emulateTransitionEnd(Tab.TRANSITION_DURATION)
       : next();
 
     $active.removeClass("in");

@@ -1,30 +1,55 @@
 const breadcrumbMap = {
-  // Extra
-  "extra/art practice": "art_practice.html",
-  "extra/art practice/cgi": "cgi.html",
-  "extra/art practice/cgi/ssa": "ssa.html",
-  "extra/art practice/cgi/ssa2": "ssa2.html",
-  "extra/art practice/installations": "installations.html",
-  "extra/art practice/photoseries": "photoseries.html",
-  "extra/art practice/photoseries/autoportrait": "autoportrait.html",
-  "extra/art practice/photoseries/londonhello": "londonhello.html",
-  "extra/art practice/photoseries/orthofuture": "orthofuture.html",
-  "extra/art practice/photoseries/pacanbalet": "pacanbalet.html",
-  "extra/art practice/photoseries/portraits": "portraits.html",
-  "extra/art practice/photoseries/unreal": "unreal.html",
-  "extra/art practice/uarchive": "uarchive.html",
-  "extra/art practice/uarchive/uarchive2": "uarchive2.html",
-  "extra/art practice/uarchive/uarchive3": "uarchive3.html",
+  // Art Practice
+  "extra/art_practice": "art_practice.html",
+
+  // CGI
+  "extra/art_practice/cgi": "cgi.html",
+  "extra/art_practice/cgi/semi_spatial_apartment": "semi_spatial_apartment.html",
+  "extra/art_practice/cgi/essentials": "essentials.html",
+
+  // Installations
+  "extra/art_practice/installations": "installations.html",
+
+  // Photoseries
+  "extra/art_practice/photoseries": "photoseries.html",
+  "extra/art_practice/photoseries/autoportrait": "autoportrait.html",
+  "extra/art_practice/photoseries/londonhello": "londonhello.html",
+  "extra/art_practice/photoseries/orthofuture": "orthofuture.html",
+  "extra/art_practice/photoseries/patsansky_ballet": "patsansky_ballet.html",
+  "extra/art_practice/photoseries/portraits": "portraits.html",
+  "extra/art_practice/photoseries/unreal": "unreal.html",
+
+  // Serial Experiments Lens
+  "extra/art_practice/serial_experiments_lens": "serial_experiments_lens.html",
+  "extra/art_practice/serial_experiments_lens/set_one": "set_one.html",
+  "extra/art_practice/serial_experiments_lens/uncanny_bar": "uncanny_bar.html",
+
+  // Exhibitions
   "extra/exhibitions": "exhibitions.html",
-  "extra/live events": "live_events.html",
-  "extra/live events/la1": "la1.html",
+
+  // Live events
+  "extra/live_events": "live_events.html",
+  "extra/live_events/la1": "la1.html",
+
+
+  // Performances
   "extra/performances": "performances.html",
   "extra/performances/meatpacking_biennale": "meatpacking_biennale.html",
-  "extra/art_practice": "art_practice.html",
+
+  // Brief History
   "extra/brief_history": "brief_history.html",
+
+  // Exhibitions
   "extra/exhibitions": "exhibitions.html",
+
+  // Live Events
   "extra/live_events": "live_events.html",
+
+  // Performances
   "extra/performances": "performances.html",
+
+
+  // Videoart
   "extra/videoart": "videoart.html",
 
   // Nav
@@ -38,6 +63,9 @@ const breadcrumbMap = {
   "projects/animation/the_last_day_of_kasane_teto": "the_last_day_of_kasane_teto.html",
   "projects/animation/get_hit_below": "get_hit_below.html",
   "projects/animation/triple_baka_by_ilya_minin_(eli)": "triple_baka_by_ilya_minin_(eli).html",
+
+
+  // Audio
   "projects/audio": "audio.html",
   "projects/audio/eli/epeorgaanistenrakenteidekierratys": "epeorgaanistenrakenteidekierratys.html",
   "projects/audio/eli/lab_anouncement_3.html": "lab_anouncement_3.html",
@@ -45,6 +73,9 @@ const breadcrumbMap = {
   "projects/audio/tanerlach": "tanerlach.html",
   "projects/audio/eli": "eli.html",
   "projects/audio/geztalt": "geztalt.html",
+
+
+  // Collaborations
   "projects/collaborations": "collaborations.html",
   "projects/collaborations/sasha_e__b": "sasha_e__b.html",
   "projects/collaborations/e6/Lupen": "Lupen.html",
@@ -61,6 +92,9 @@ const breadcrumbMap = {
   "projects/collaborations/spalah": "nipagana.html",
   "projects/collaborations/dynakyris": "dynakyris.html",
   "projects/collaborations/varvara_kuleshova": "varvara_kuleshova.html",
+
+
+  // Games
   "projects/games": "games.html",
   "projects/games/desolation_odissey": "desolation_odissey.html",
   "projects/games/elysium": "elysium.html",
@@ -68,6 +102,9 @@ const breadcrumbMap = {
   "projects/games/night_mafia": "night_mafia.html",
   "projects/games/outsider": "outsider.html",
   "projects/games/sleepdom": "sleepdom.html",
+
+
+  // Interactive
   "projects/interactive": "interactive.html",
   "projects/interactive/belial": "belial.html",
 
