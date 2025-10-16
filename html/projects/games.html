@@ -22,89 +22,59 @@
         <ol class="breadcrumb"></ol>
       </div>
 
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="outsider.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>Outsider</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="metaliminal.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>metaLiminaL</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="sleepdoleg_makarov.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>Sleepdom</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="nightmafia.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>Night Mafia</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="elysium.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>Elysium</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-1 text-center">
-          <p><i class=""></i></p>
-          <p></p>
-        </div>
-        <div class="col-md-5"><a href="desodissey.html"><img class="img-responsive img-hover"
-              src="..\images\Games\outsider_preview.png" alt="" /></a></div>
-        <div class="col-md-6">
-          <h3>Desolation Odyssey</h3>
-        </div>
-        <hr />
-        <hr />
-      </div>
+      <div id="portfolioContainer"></div>
+      <script type="module" src="../../../js/projects_text.js"></script>
+      <script type="module">
+        import { createPortfolioText } from '../../../js/projects_text.js';
+        document.addEventListener('DOMContentLoaded', () => {
+          createPortfolioText([
+
+            {
+              link: '../../html/projects/games/outsider.html',
+              imgSrc: '../../images/Games/outsider_preview.png',
+              alt: '',
+              title: 'Outsider',
+              description: ''
+            },
+            {
+              link: '../../html/projects/games/metaliminal.html',
+              imgSrc: '../../images/Games/outsider_preview.png',
+              alt: '',
+              title: 'metaLiminaL',
+              description: ''
+            },
+            {
+              link: '../../html/projects/games/sleepdom.html',
+              imgSrc: '../../images/Games/outsider_preview.png',
+              alt: '',
+              title: 'Sleepdom',
+              description: ''
+            },
+            {
+              link: '../../html/projects/games/night_mafia.html',
+              imgSrc: '../../images/Games/outsider_preview.png',
+              alt: '',
+              title: 'Night Mafia',
+              description: ''
+            },
+            {
+              link: '../../html/projects/games/desolation_odissey.html',
+              imgSrc: '../../images/games/outsider_preview.png',
+              alt: '',
+              title: 'Desolation Odyssey',
+              description: ''
+            },
+            {
+              link: '../../html/projects/games/elysium.html',
+              imgSrc: '../../images/games/outsider_preview.png',
+              alt: '',
+              title: 'Elysium',
+              description: ''
+            },
+          ], 'portfolioContainer');
+        });
+      </script>
+
 
       <footer>
         <div class="row">
